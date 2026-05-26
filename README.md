@@ -492,7 +492,7 @@ Properties Hibernate (ddl-auto, show-sql, etc.)
 
 ---
 
-## 👨‍💻 Auteur
+## 👩🏽‍💻 Auteur
 
 **Moneli AGAMAKA**  
 Promo: IRA2026  
