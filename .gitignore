@@ -1,0 +1,86 @@
+# =====================================================
+# .gitignore pour Spring Boot Project
+# =====================================================
+
+# IDE & Editor
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+.classpath
+.project
+.settings/
+*.jks
+*.keystore
+
+# Maven
+target/
+.m2/
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+.mvn/extensions.xml
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot
+spring-boot-devtools.properties
+application-dev.properties
+application-local.properties
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+*.sql.log
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node (si npm utilisé)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+
+# VSCode launch config (optionnel)
+.vscode/launch.json
+
+# =====================================================
+# À NE PAS IGNORER
+# =====================================================
+# !.mvn/wrapper/maven-wrapper.jar
+# !gradlew
+# !gradlew.bat
+# !.gitkeep
